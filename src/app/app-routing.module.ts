@@ -1,3 +1,12 @@
+/*--****************************************************************************
+    --* Project Name    : MakeMyDayWithACoffee
+    --* Reference       : NgModule, RouterModule, inject, Component, OnInit, CommonModule
+    --*                 : public_routes, admin_routes, PublicLayoutViewComponent, AdminLayoutViewComponent, CoffeeService
+    --* Description     : Represents app routing ng module
+    --* Configuration Record
+    --* Review            Ver  Author           Date      Cr       Comments
+    --* 001               001  A HATKAR         15/11/23  CR-XXXXX Original
+  --****************************************************************************/
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { public_routes } from './common/layout-routes/public-routing.module';

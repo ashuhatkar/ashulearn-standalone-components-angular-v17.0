@@ -1,4 +1,12 @@
-import { Component } from '@angular/core';
+/*--****************************************************************************
+    --* Project Name    : MakeMyDayWithACoffee
+    --* Reference       : Component, CommonModule
+    --* Description     : Represents a favicon standalone view component
+    --* Configuration Record
+    --* Review            Ver  Author           Date      Cr       Comments
+    --* 001               001  A HATKAR         15/11/23  CR-XXXXX Original
+  --****************************************************************************/
+import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -12,6 +20,9 @@ import { CommonModule } from '@angular/common';
   `,
   styles: ``
 })
-export class FaviconViewComponent {
+export class FaviconViewComponent implements OnInit {
 
+  ngOnInit(): void {
+
+  }
 }

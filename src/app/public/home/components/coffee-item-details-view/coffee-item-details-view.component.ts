@@ -1,3 +1,12 @@
+/*--****************************************************************************
+    --* Project Name    : MakeMyDayWithACoffee
+    --* Reference       : FormControl, FormGroup, inject, Component, OnInit, CommonModule
+    --*                 : ActivatedRoute, CoffeeService, CoffeeItemModel
+    --* Description     : Represents a coffee item details standalone view component
+    --* Configuration Record
+    --* Review            Ver  Author           Date      Cr       Comments
+    --* 001               001  A HATKAR         15/11/23  CR-XXXXX Original
+  --****************************************************************************/
 import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
