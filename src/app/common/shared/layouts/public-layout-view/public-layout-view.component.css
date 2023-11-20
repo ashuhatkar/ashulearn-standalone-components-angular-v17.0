@@ -1,0 +1,15 @@
+.brand-logo {
+  width: 140px; height: 60px;
+}
+:host {
+  --content-padding: 10px;
+}
+header {
+  display: block;
+  height: 150px;
+  padding: var(--content-padding);
+  box-shadow: 0px 5px 25px var(--shadow-color);
+}
+.content {
+  padding: var(--content-padding);
+}
