@@ -12,7 +12,6 @@ import { NgModule } from "@angular/core";
 import { routes } from "./app.routes";
 import { AppComponent } from "./app.component";
 import { AppRoutingModule } from "./app-routing.module";
-import { HomeModule } from "./admin/views/home/home.module";
 
 @NgModule({
   declarations: [],
@@ -21,7 +20,6 @@ import { HomeModule } from "./admin/views/home/home.module";
     AppRoutingModule,
     AppComponent,
     routes,
-    HomeModule
   ],
   providers: []
 })
