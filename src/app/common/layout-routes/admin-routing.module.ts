@@ -9,7 +9,7 @@
 import { Routes } from '@angular/router';
 import { PageNotFoundViewComponent } from '../shared/components/admin/page-not-found-view/page-not-found-view.component';
 
-export const admin_routes: Routes = [
+export const ADMIN_ROUTES: Routes = [
   {
     path: '',
     redirectTo: '/admin', pathMatch: 'full'

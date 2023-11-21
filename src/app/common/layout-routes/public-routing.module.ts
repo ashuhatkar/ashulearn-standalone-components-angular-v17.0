@@ -9,7 +9,7 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from '../../public/home/components/home.component';
 
-export const public_routes: Routes = [
+export const PUBLIC_ROUTES: Routes = [
   {
     path: '',
     component: HomeComponent,

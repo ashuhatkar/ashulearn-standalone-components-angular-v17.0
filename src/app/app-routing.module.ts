@@ -9,19 +9,19 @@
   --****************************************************************************/
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { public_routes } from './common/layout-routes/public-routing.module';
-import { admin_routes } from './common/layout-routes/admin-routing.module';
+import { PUBLIC_ROUTES } from './common/layout-routes/public-routing.module';
+import { ADMIN_ROUTES } from './common/layout-routes/admin-routing.module';
 import { PublicLayoutViewComponent } from './common/shared/layouts/public-layout-view/public-layout-view.component';
 import { AdminLayoutViewComponent } from './common/shared/layouts/admin-layout-view/admin-layout-view.component';
 
-const routes: Routes = [
+const ROUTES: Routes = [
   {
     path: '',
-    component: PublicLayoutViewComponent, children: public_routes
+    component: PublicLayoutViewComponent, children: PUBLIC_ROUTES
   },
   {
     path: '',
-    component: AdminLayoutViewComponent, children: admin_routes
+    component: AdminLayoutViewComponent, children: ADMIN_ROUTES
   },
   {
     path: '**',
@@ -30,8 +30,7 @@ const routes: Routes = [
   }
 ];
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(ROUTES)],
   exports: [RouterModule]
-
 })
 export class AppRoutingModule {}

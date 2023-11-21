@@ -9,7 +9,7 @@
   --****************************************************************************/
 import { BrowserModule } from "@angular/platform-browser";
 import { NgModule } from "@angular/core";
-import { routes } from "./app.routes";
+import { ROUTES } from "./app.routes";
 import { AppComponent } from "./app.component";
 import { AppRoutingModule } from "./app-routing.module";
 
@@ -19,7 +19,7 @@ import { AppRoutingModule } from "./app-routing.module";
     BrowserModule,
     AppRoutingModule,
     AppComponent,
-    routes,
+    ROUTES,
   ],
   providers: []
 })
