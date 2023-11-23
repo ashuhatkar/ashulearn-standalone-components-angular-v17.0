@@ -23,7 +23,7 @@ import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
           <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item active"><a class="nav-link" [routerLink]="['/home']">Product</a></li>
+              <li class="nav-item active"><a class="nav-link" [routerLink]="['/home']">Products</a></li>
               <li class="nav-item"><a class="nav-link" [routerLink]="['/about-us']">About</a></li>
               <li class="nav-item"><a class="nav-link" [routerLink]="['/contact-us']">Contact</a></li>
             </ul>

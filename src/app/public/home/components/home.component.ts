@@ -25,7 +25,7 @@ import { CoffeeService } from '../../../common/core/services/Coffee/coffee.servi
       </form>
     </section>
     <section class="results">
-        <app-coffee-item-view *ngFor="let coffeeItemModel of filteredCoffeeItemList" [coffeeItemModel]="coffeeItemModel"></app-coffee-item-view>
+        <app-coffee-item-view *ngFor="let coffeeItem of filteredCoffeeItemList" [coffeeItemModel]="coffeeItem"></app-coffee-item-view>
     </section>
   `,
   styleUrls: ['./home.component.css']

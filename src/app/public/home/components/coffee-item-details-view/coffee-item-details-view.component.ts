@@ -7,9 +7,9 @@
     --* Review            Ver  Author           Date      Cr       Comments
     --* 001               001  A HATKAR         15/11/23  CR-XXXXX Original
   --****************************************************************************/
-import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { ActivatedRoute } from '@angular/router';
 import { CoffeeService } from '../../../../common/core/services/Coffee/coffee.service';
 import { CoffeeItemModel } from '../../../../common/core/models/Coffee/coffee-item-model';
@@ -54,7 +54,6 @@ export class CoffeeItemDetailsViewComponent {
 
   //#region Fields
 
-  coffeeItemId: number = -1;
   route: ActivatedRoute = inject(ActivatedRoute);
   coffeeService = inject(CoffeeService);
   coffeeItemModel: CoffeeItemModel | undefined;
@@ -74,6 +73,10 @@ export class CoffeeItemDetailsViewComponent {
     this.coffeeItemModel = this.coffeeService.getCoffeeItemById(coffeeItemId);
   }
 
+  //#endregion
+
+  //#region Methods
+
   submitApplication() {
     this.coffeeService.submitApplication(
       this.applyForm.value.firstName ?? '',
@@ -83,5 +86,4 @@ export class CoffeeItemDetailsViewComponent {
   }
 
   //#endregion
-
 }
