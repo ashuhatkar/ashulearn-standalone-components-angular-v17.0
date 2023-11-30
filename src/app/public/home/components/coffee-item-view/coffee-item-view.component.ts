@@ -1,12 +1,13 @@
 /*--****************************************************************************
-    --* Project Name    : MakeMyDayWithACoffee
-    --* Reference       : Component, OnInit, CommonModule, CoffeeItemModel
-    --*                 : CoffeeItemModel, RouterLink, RouterOutlet
-    --* Description     : Represents a coffee item details standalone view component
-    --* Configuration Record
-    --* Review            Ver  Author           Date      Cr       Comments
-    --* 001               001  A HATKAR         15/11/23  CR-XXXXX Original
-  --****************************************************************************/
+  --* Project Name    : MakeMyDayWithACoffee
+  --* Reference       : Component, OnInit, CommonModule, CoffeeItemModel
+  --*                 : CoffeeItemModel, RouterLink, RouterOutlet
+  --* Description     : Represents a coffee item details standalone view component
+  --* Configuration Record
+  --* Review            Ver  Author           Date      Cr       Comments
+  --* 001               001  A HATKAR         15/11/23  CR-XXXXX Original
+--****************************************************************************/
+// import dependencies
 import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CoffeeItemModel } from '../../../../common/core/models/Coffee/coffee-item-model';

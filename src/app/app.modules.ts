@@ -1,12 +1,13 @@
 /*--****************************************************************************
-    --* Project Name    : MakeMyDayWithACoffee
-    --* Reference       : BrowserModule, NgModule, routes, AppComponent
-    --*                 : AppRoutingModule, HomeModule
-    --* Description     : Represents app module
-    --* Configuration Record
-    --* Review            Ver  Author           Date      Cr       Comments
-    --* 001               001  A HATKAR         15/11/23  CR-XXXXX Original
-  --****************************************************************************/
+  --* Project Name    : MakeMyDayWithACoffee
+  --* Reference       : BrowserModule, NgModule, routes, AppComponent
+  --*                 : AppRoutingModule, HomeModule
+  --* Description     : Represents app module
+  --* Configuration Record
+  --* Review            Ver  Author           Date      Cr       Comments
+  --* 001               001  A HATKAR         15/11/23  CR-XXXXX Original
+--****************************************************************************/
+// import dependencies
 import { BrowserModule } from "@angular/platform-browser";
 import { NgModule } from "@angular/core";
 import { ROUTES } from "./app.routes";

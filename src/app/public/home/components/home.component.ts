@@ -1,12 +1,13 @@
 /*--****************************************************************************
-    --* Project Name    : MakeMyDayWithACoffee
-    --* Reference       :inject, Component, OnInit, CommonModule
-    --*                 :CoffeeItemViewComponent, CoffeeItemModel, CoffeeService
-    --* Description     : Represents home standalone view component
-    --* Configuration Record
-    --* Review            Ver  Author           Date      Cr       Comments
-    --* 001               001  A HATKAR         15/11/23  CR-XXXXX Original
-  --****************************************************************************/
+  --* Project Name    : MakeMyDayWithACoffee
+  --* Reference       :inject, Component, OnInit, CommonModule
+  --*                 :CoffeeItemViewComponent, CoffeeItemModel, CoffeeService
+  --* Description     : Represents home standalone view component
+  --* Configuration Record
+  --* Review            Ver  Author           Date      Cr       Comments
+  --* 001               001  A HATKAR         15/11/23  CR-XXXXX Original
+--****************************************************************************/
+// import dependencies
 import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CoffeeItemViewComponent } from './coffee-item-view/coffee-item-view.component';
@@ -63,5 +64,4 @@ export class HomeComponent {
   }
 
   //#endregion
-
 }

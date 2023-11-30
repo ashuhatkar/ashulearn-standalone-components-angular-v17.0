@@ -1,11 +1,12 @@
 /*--****************************************************************************
-    --* Project Name    : MakeMyDayWithACoffee
-    --* Reference       : Routes, HomeComponent
-    --* Description     : Represents a public routes
-    --* Configuration Record
-    --* Review            Ver  Author           Date      Cr       Comments
-    --* 001               001  A HATKAR         15/11/23  CR-XXXXX Original
-  --****************************************************************************/
+  --* Project Name    : MakeMyDayWithACoffee
+  --* Reference       : Routes, HomeComponent
+  --* Description     : Represents a public routes
+  --* Configuration Record
+  --* Review            Ver  Author           Date      Cr       Comments
+  --* 001               001  A HATKAR         15/11/23  CR-XXXXX Original
+--****************************************************************************/
+// import dependencies
 import { Routes } from '@angular/router';
 import { HomeComponent } from '../../public/home/components/home.component';
 
